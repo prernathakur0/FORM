@@ -1,0 +1,80 @@
+/* validation.css */
+
+/* Styling the container of the form */
+.form1 {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header styling */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling input fields */
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  /* Error message styling */
+  div {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Styling the button */
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Success message */
+  .message {
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .form1 {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  }
+  
